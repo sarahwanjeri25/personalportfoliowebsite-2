@@ -1,0 +1,120 @@
+/* Common css section */
+*{
+	box-sizing: border-box;
+	margin: 20;
+	padding: 40;
+	outline: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body{
+	font-size: 20px;
+	font-weight: 600;
+	background-color: rgb(245, 197, 211);
+	color: darkslategray;
+}
+
+.container{
+	width: 1100px;
+	margin: 10px auto;
+	display: table;
+}
+
+.width-33{
+	width: 25%;
+	float: left;
+}
+
+.width-66{
+	width: 80%;
+	float: left;
+}
+
+/* MENU SECTION */
+.main-panel{
+	width: 100%;
+	float: left;
+	padding-top:10px ;
+	padding-bottom: 50px;
+	height:100vh
+}
+
+.logo{
+	font-size: 40px;
+	font-weight: 790;
+}
+
+.span-col{
+	color: rgb(124, 50, 7);
+}
+
+nav{
+	float: right;
+}
+
+nav a{
+     text-decoration: none;
+	 font-size:20px ;
+	 font-weight: 200;
+	 margin-left: 20px;
+	 color: rgb(187, 150, 101);
+}
+
+/* MAIN BANNER */
+.width-50{
+	float: left;
+	width: 50%;
+}
+
+.banner-section{
+	width: 100%;
+	float: left;
+	margin-top: 25vh;
+}
+
+.banner-section h1{
+	font-size: 40px;
+	margin-top: 10px;
+	font-weight: bolder;
+	font-style: oblique;
+}
+
+.banner-section h2{
+	font-size: 25px;
+	margin-top: 20px;
+	font-weight: 300;
+	line-height: 25px;
+}
+
+.banner-section a{
+	float: left;
+	text-decoration: none;
+	font-size: 15px;
+	margin-top: 40px;
+	border-radius: 50%;
+	text-align: center;
+	border: 2px solid rgb(114, 60, 29);
+    color: rgb(204, 68, 18);
+	margin-left: 10px;
+	height: 50px;
+	width: 90px;
+	line-height: 50px;
+}
+/* Main Banner Image */
+.main-panel img{
+	margin-top: 10%;
+	width: 100%;
+	margin-left: 10%;
+}
+
+/* ABOUT ME SECTION */
+.main-section{
+	width: 100%;
+	float: left;
+	padding: 110px 0px 110px 0x;
+}
+.width-100{
+	width: 100%;
+	float: left;
+}
